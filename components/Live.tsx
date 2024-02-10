@@ -110,7 +110,7 @@ const Live = ({canvasRef, undo, redo}: Props) => {
           } else if (event.key === "Escape") {
             updateMyPresence({ message: "" });
             setCursorState({ mode: CursorMode.Hidden });
-          } else if (event.key === "e") {
+          } else if (event.key === "=") {
             setCursorState({ mode: CursorMode.ReactionSelector });
           }
         };
